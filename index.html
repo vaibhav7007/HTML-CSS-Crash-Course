@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+// using !tab we can create this doctype
+<html lang="en">
+  //every html starts with this
+  <head>
+    // whatever we put in the head is the setting of the page
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" />
+    //here we linked index.html file to style.css file using link attribute
+    //usig style attribute we use CSS to style elements to create a layout for the overall page
+    we can write CSS write here in the HTML file using the style element and that style element is not for visible content here on the page so it would go right here into the head because head is for settings of the page and style definitely counts as a setting. To style elements we need to first select them and there are different types of selectors in CSS but the most basic one is the element selector. with the element selector we can simply select all elements of a certain type. for eg body{} and inside curly braces we can write CSS declarations. so each CSS declaration has a property name and then a value here background-color is property and green is a value
+
+    <title>Learning HTML & CSS</title>
+    //title represents document title or name
+
+  </head>
+  <body>
+    // what we put on the body is visible on the page
+    <h1>Javascript is fun, but so is CSS & HTML!</h1>
+    //h1 is a level 1 heading
+    <p class="first">
+      You can learn Javascript without HTML & CSS, but for DOM manipulation it's
+      useful to have some basic ideas of HTML & CSS. You can learn more about it
+      <a href="https://www.udemy.com/user/jonasschmedtmann/">on udemy</a>. // a
+      is an ankor element // href means hypertext reference and its an attribute
+    </p>
+    //P describes a paragraph
+    <h6>Another Heading</h6>
+    // h6 is a level 6 heading
+    <p class="second">
+    <p>Just another paragraph</p>
+    </p>
+
+    <img
+      id="course-image"
+      src="https://img-c.udemycdn.com/course/240x135/437398_46c3_10.jpg"
+    />
+    // img represents image and src represents source attribute // class and id
+    are attributes and difference between them is that id has to be unique so
+    each id can be used once on the page while classes can be used over and over
+
+    <form id="your-name"> 
+        <h2>Your name here</h2>
+        <p class="first">Please fill in this form :)</p>
+
+        <input type="text" placeholder="Your name">
+        //because of input and button element this has become form so we have to change dev to form
+        //input is an attribute and type attribute is used to specify the type of data that should be inputed in this element 
+        <button>OK!</button>
+    </form>
+    // dev is box which has no meaning at all 
+    // in css we use - to seperate two names
+  </body>
+</html>
+// every html ends with this
+
+// these comment below are for the style.css file :-
+// this is our selector Dot. is for the class and first is the class name;
+// we can change font using this
+// we can change font size using this
+// # is used to select id
+//border property is so called shorthand property because here we can set mulitple values for just one property here 5px is width and solid is the style
+
